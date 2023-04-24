@@ -15,10 +15,12 @@ a {
     width: 308px;
     background-color: #fff;
     box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    padding-bottom: 30px;
 }
 
 .logo {
     display: flex;
+    flex-direction: row;
     font-weight: 600;
     font-size: 26px;
     line-height: 1.5;
@@ -26,6 +28,12 @@ a {
     padding-top: 40px;
     padding-left: 32px;
     margin-bottom: 70px;
+    margin-right: 60px;
+}
+
+
+.nav-button {
+    display: none;
 }
 
 .logo h2 {
@@ -65,6 +73,11 @@ a {
 }
 
 .nav-link:focus {
+    background-color: #5932EA;
+    color: #fff;
+}
+
+.nav-link:active {
     background-color: #5932EA;
     color: #fff;
 }
